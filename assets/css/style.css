@@ -88,7 +88,7 @@ h1 {
 	font-size: 24px;
 	font-weight: bold;
 	}
-.container{
+.container , .project-container{
 	float: left;
 	background-color: #ffffff;
 	border-color: #dddddd;
@@ -97,15 +97,7 @@ h1 {
 	margin-top: 25px;
 	padding-right: 30px;
 	}
-.project-container{
-	float: left;
-	background-color: #ffffff;
-	border-color: #dddddd;
-	padding-left: 30px;
-	margin-left: 100px;
-	margin-top: 25px;
-	padding-right: 30px;
-	}
+
 }
 #main-bio{
 	color:#777777;
@@ -422,12 +414,13 @@ h1 {
 	}
 	#Intro-Page{
 		margin-top: 80px;
-		width: 540px;
+		width: 600px;
 		margin-left: 20px;
 		margin-bottom: 20px;
 	} 
 	#Dog{
-		margin-top: 125px;
+		margin-top: 40px;
+		margin-left: 300px;
 	}
 	#contactbox{
 		margin-bottom: 50px;
