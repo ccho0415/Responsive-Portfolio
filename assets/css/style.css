@@ -230,6 +230,7 @@ h1 {
 	.container{
 	width: 668px;
 	margin-left: 20px;
+	margin-bottom: 20px;
 
 
 	}
@@ -245,16 +246,13 @@ h1 {
 	}
 	#social-media-box{
 	width: 200px;
-	margin-top: 500px;
+	left: 0px;
+	position: static;
+	float: left;
+	margin-left: 20px;
+	margin-top: 0px;
 	margin-right: 0px;
 	padding-left: 0px;
-	text-align: center;
-	right:0;
-	top: 80px;
-	left: 0px;
-	float:left;
-	position: absolute;
-
 }
 	.GitHub, .Linkedin{
 	width: 60px;
@@ -293,69 +291,119 @@ h1 {
 @media screen and (max-width: 640px){
 header{
 	height: 85px;
+	width: 640px;
 }
 
 .topnav{
-	clear:both;
+	float: left;
 	position:fixed;
-	padding: 5px;
-	margin-left: 220px;
-	margin-top: 0px;
+	padding: 15px;
+	margin-left:0px;
+	margin-top: 85px;
 	margin-right: 0px;
 	padding-right: 0px;
 	position: absolute;
+	width: 640px;
 }
 
 h1 {
-	padding-left: 20px;
-	padding-right: 20px;
-	width: 40%;
+	padding-left: 0px;
+	padding-right:0px;
+	width: 640px;
 	margin-left: 0px;
 	height: 82px;
 	}
-#Projects,#Home,#About,#Contact{
-	padding-left: 15px;
+#Home{
+	padding-left: 50px;
 	margin-right: 0px;
+	font-size: 24px;
+	margin-left: 40px;
 }
-#Home,#About{
-	padding-bottom: 10px;
+#Projects{
+	font-size: 24px;
+	padding-left: 20px;
+
 }
-	.container{
-	width: 540px;
-	margin-left: 0px;
+#About,#Contact{
+	padding-left: 20px;
+	font-size: 24px;
+}
 
-
-	}
+.container{
+	width: 620px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 75px;
+	margin-right: 10px;
+}
 	#main-bio{
 	width: 540px;
 	overflow: auto;
 	margin-left: 0px;
 }
 	#bio-image{
-	width: 200px;
-	height: 150px;
+	width: 540px;
+	height: 350px;
 }
 	#body-page {
 	width: 50%;
 }
 	#social-media-box{
-	width: 200px;
-	margin-left: 0px;
-	text-align: center;
+	width: 540px;
 	left: 0px;
-	float:left;
-	position: absolute;
+	position: static;
+	float: left;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	text-align: left;
 
 }
-	.GitHub, .Linkedin{
-	width: 60px;
-	height: 60px;
-}
-.Linkedin{
-	margin-left: 50px;
-}
-.GitHub{
+	#social-media-box-text{
 	margin-left: 10px;
-}
+	}
+	#Intro-Page{
+		margin-top: 80px;
+		width: 540px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	} 
+	#Dog{
+		margin-top: 125px;
+	}
+	#contactbox{
+		margin-bottom: 50px;
+	}
+	#b1{
+		margin-left: 10px;
+	}
+	#b2{
+		margin-left: 300px;
+	}
+	#b3{
+		margin-left: 10px;
+	}
+
+	#b4{
+		margin-left: 300px;
+	}
+	#dog1{
+		margin-left: 10px;
+	}
+	#dog2{
+		margin-left: 300px;
+	}
+	#dog3{
+		margin-left: 10px;
+	}
+
+	#dog4{
+		margin-left: 300px;
+	}
+
+
+
+
 
 }
