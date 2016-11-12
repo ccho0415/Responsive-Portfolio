@@ -97,6 +97,16 @@ h1 {
 	margin-top: 25px;
 	padding-right: 30px;
 	}
+.project-container{
+	float: left;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	padding-left: 30px;
+	margin-left: 100px;
+	margin-top: 25px;
+	padding-right: 30px;
+	}
+}
 #main-bio{
 	color:#777777;
 	border-width: 25px;
@@ -286,7 +296,55 @@ h1 {
 	padding-left: 15px;
 	margin-left: 0px;
 }
+	#b1{
+		margin-left: 10px;
+	}
+	#b2{
+		margin-left: 300px;
+	}
+	#b3{
+		margin-left: 10px;
+	}
 
+	#b4{
+		margin-left: 300px;
+	}
+	#dog1{
+		margin-left: 10px;
+	}
+	#dog2{
+		margin-left: 300px;
+	}
+	#dog3{
+		margin-left: 10px;
+	}
+
+	#dog4{
+		margin-left: 300px;
+	}
+	#Project-Header{
+		margin-top: 50px;
+		margin-left: 350px;
+		margin-bottom: 0px;
+	}
+.project-container{
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 25px;
+	padding-right: 0px;
+	clear:both;
+}
+	#Intro-Page{
+		margin-top: 30px;
+		width: 720px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	} 
+	#Dog{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: 355px;
+	}
 }
 @media screen and (max-width: 640px){
 header{
@@ -349,8 +407,7 @@ h1 {
 	width: 50%;
 }
 	#social-media-box{
-	width: 540px;
-	left: 0px;
+	width: 600px;
 	position: static;
 	float: left;
 	margin-left: 20px;
@@ -402,7 +459,17 @@ h1 {
 		margin-left: 300px;
 	}
 
-
+	#Project-Header{
+		margin-top: 100px;
+		margin-left: 255px;
+		margin-bottom: 0px;
+	}
+.project-container{
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 25px;
+	padding-right: 0px;
+}
 
 
 
